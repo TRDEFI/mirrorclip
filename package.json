@@ -1,25 +1,5 @@
-{
-  "name": "mirrorclip",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "framer-motion": "^10.16.4",
-    "lucide-react": "^0.263.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.11",
-    "@vitejs/plugin-react": "^4.0.3",
-    "autoprefixer": "^10.4.15",
-    "postcss": "^8.4.29",
-    "tailwindcss": "^3.3.3",
-    "vite": "^5.4.2"
-  }
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "start": "vite preview --port 10000 --host 0.0.0.0"
 }
